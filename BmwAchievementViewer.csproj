@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>BmwAchievementViewer</AssemblyName>
+    <RootNamespace>BmwAchievementViewer</RootNamespace>
+    <NoWarn>MSB3277</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="b1.Managed"><HintPath>Dll\b1.Managed.dll</HintPath></Reference>
+    <Reference Include="b1.Native"><HintPath>Dll\b1.Native.dll</HintPath></Reference>
+    <Reference Include="b1.NativePlugins"><HintPath>Dll\b1.NativePlugins.dll</HintPath></Reference>
+    <Reference Include="B1UI_GSE.Script"><HintPath>Dll\B1UI_GSE.Script.dll</HintPath></Reference>
+    <Reference Include="BtlSvr.Main"><HintPath>Dll\BtlSvr.Main.dll</HintPath></Reference>
+    <Reference Include="Diana.Client.Common"><HintPath>Dll\Diana.Client.Common.dll</HintPath></Reference>
+    <Reference Include="Diana.Common"><HintPath>Dll\Diana.Common.dll</HintPath></Reference>
+    <Reference Include="Diana.Server.Common"><HintPath>Dll\Diana.Server.Common.dll</HintPath></Reference>
+    <Reference Include="Google.Protobuf"><HintPath>Dll\Google.Protobuf.dll</HintPath></Reference>
+    <Reference Include="GSE.Core"><HintPath>Dll\GSE.Core.dll</HintPath></Reference>
+    <Reference Include="GSE.GSNet"><HintPath>Dll\GSE.GSNet.dll</HintPath></Reference>
+    <Reference Include="GSE.GSSdk"><HintPath>Dll\GSE.GSSdk.dll</HintPath></Reference>
+    <Reference Include="GSE.OnlineBase"><HintPath>Dll\GSE.OnlineBase.dll</HintPath></Reference>
+    <Reference Include="GSE.ProtobufDB"><HintPath>Dll\GSE.ProtobufDB.dll</HintPath></Reference>
+    <Reference Include="GUR.Runtime"><HintPath>Dll\GUR.Runtime.dll</HintPath></Reference>
+    <Reference Include="ICSharpCode.SharpZipLib"><HintPath>Dll\ICSharpCode.SharpZipLib.dll</HintPath></Reference>
+    <Reference Include="ILRuntime"><HintPath>Dll\ILRuntime.dll</HintPath></Reference>
+    <Reference Include="ILRuntime.Mono.Cecil"><HintPath>Dll\ILRuntime.Mono.Cecil.dll</HintPath></Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Mdb"><HintPath>Dll\ILRuntime.Mono.Cecil.Mdb.dll</HintPath></Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Pdb"><HintPath>Dll\ILRuntime.Mono.Cecil.Pdb.dll</HintPath></Reference>
+    <Reference Include="LiteNetLib"><HintPath>Dll\LiteNetLib.dll</HintPath></Reference>
+    <Reference Include="LitJson"><HintPath>Dll\LitJson.dll</HintPath></Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces"><HintPath>Dll\Microsoft.Bcl.AsyncInterfaces.dll</HintPath></Reference>
+    <Reference Include="Mono.Cecil"><HintPath>Dll\Mono.Cecil.dll</HintPath></Reference>
+    <Reference Include="Mono.Data.Sqlite"><HintPath>Dll\Mono.Data.Sqlite.dll</HintPath></Reference>
+    <Reference Include="Mono.Posix"><HintPath>Dll\Mono.Posix.dll</HintPath></Reference>
+    <Reference Include="Mono.Security"><HintPath>Dll\Mono.Security.dll</HintPath></Reference>
+    <Reference Include="Mono.WebBrowser"><HintPath>Dll\Mono.WebBrowser.dll</HintPath></Reference>
+    <Reference Include="Novell.Directory.Ldap"><HintPath>Dll\Novell.Directory.Ldap.dll</HintPath></Reference>
+    <Reference Include="Protobuf.RunTime"><HintPath>Dll\Protobuf.RunTime.dll</HintPath></Reference>
+    <Reference Include="Sentry"><HintPath>Dll\Sentry.dll</HintPath></Reference>
+    <Reference Include="System.ServiceModel.Internals"><HintPath>Dll\System.ServiceModel.Internals.dll</HintPath></Reference>
+    <Reference Include="UnrealEngine"><HintPath>Dll\UnrealEngine.dll</HintPath></Reference>
+    <Reference Include="UnrealEngine.Runtime"><HintPath>Dll\UnrealEngine.Runtime.dll</HintPath></Reference>
+  </ItemGroup>
+
+</Project>
