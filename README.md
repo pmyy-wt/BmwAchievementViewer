@@ -6,6 +6,10 @@
 
 >注：本项目(包括本文档)完全由AI生成
 
+# Dongmei6661的[仓库](https://github.com/Dongmei6661/black-myth-wukong-achievement-tracker/tree/feat/zh-cn-localization)有更好的体验
+
+本项目归档
+
 ## 功能
 
 - 解析 `.sav` 存档并读取完整成就数据结构
